@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="text">
+      <h1>target number:</h1>
+      <input type="number" name="" id="num" />
+    </div>
+    <div class="box">
+      <div class="powerBox">
+        <svg class="powerIcon powerUp" width="70" height="70">
+          <g>
+            <use href="#powerIcon"></use>
+          </g>
+        </svg>
+      </div>
+      <div class="grid">
+        <div class="cells">
+          <div class="cell">
+            <input type="number" class="cellInput" />
+            <div class="back"></div>
+          </div>
+          <div class="cell">
+            <input type="number" class="cellInput" />
+            <div class="back"></div>
+          </div>
+          <div class="cell">
+            <input type="number" class="cellInput" />
+            <div class="back"></div>
+          </div>
+          <div class="cell">
+            <input type="number" class="cellInput" />
+            <div class="back"></div>
+          </div>
+          <div class="cell">
+            <input type="number" class="cellInput" />
+            <div class="back"></div>
+          </div>
+          <div class="cell">
+            <input type="number" class="cellInput" />
+            <div class="back"></div>
+          </div>
+          <div class="cell">
+            <input type="number" class="cellInput" />
+            <div class="back"></div>
+          </div>
+          <div class="cell">
+            <input type="number" class="cellInput" />
+            <div class="back"></div>
+          </div>
+          <div class="cell">
+            <input type="number" class="cellInput" />
+            <div class="back"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg>
+      <symbol id="arrow">
+        <path
+          d="
+       M 10 12 Q 10 10, 12 10 
+       H 18 Q 20 10, 20 12
+       L 12 20 Q 10 20 10 18 V 12"
+        ></path>
+        <path
+          d="
+       M 60 58 Q 60 60, 58 60 
+       H 52 Q 50 60, 50 58
+       L 58 50 Q 60 50 60 52 V 58"
+        ></path>
+      </symbol>
+    </svg>
+    <svg>
+      <symbol id="powerIcon">
+        <text class="iconText" text-anchor="middle" x="50%" y="58%">÷</text>
+        <circle class="iconCircle" cx="50%" cy="50%" r="20"></circle>
+        <g class="arro">
+          <use href="#arrow"></use>
+        </g>
+      </symbol>
+    </svg>
+  </body>
+</html>
